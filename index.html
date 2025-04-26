@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Wairunpuatlang</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+</head>
+
+<style>
+    .store-container {
+      text-align: center;
+      padding: 40px 0;
+      max-width: 900px;
+      margin: auto;
+    }
+  
+    .card {
+      height: 250px;
+      border: none;
+      overflow: hidden;
+      position: relative;
+    }
+  
+    .card-img {
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.3s ease-in-out;
+    }
+  
+    .img-hover:hover {
+      transform: scale(1.5);
+    }
+  
+    .card-img-overlay {
+      background: linear-gradient(to top, rgba(0, 0, 0, 0.6), transparent);
+      padding: 10px;
+    }
+  
+    .caption {
+      font-weight: bold;
+      font-size: 16px;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    }
+  </style>
+<body>
+<header>
+  <img src="img/banner.jpg" class="img-fluid w-100" style="max-height: 150px; object-fit: cover;" alt="Banner Image">
+</header>
+<nav class="navbar navbar-expand-lg custom-navbar">
+    <div class="container">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="index.html"><strong>HOME</strong></a></li>
+                <li class="nav-item"><a class="nav-link" href="one.html"><strong>VENICE STEAK & RESTAURANT</strong></a></li>
+                <li class="nav-item"><a class="nav-link" href="two.html"><strong>VANILLA SKY CAFE</strong></a></li>
+                <li class="nav-item"><a class="nav-link" href="three.html"><strong>STAY WITH TREE CAFE</strong></a></li>
+                <li class="nav-item"><a class="nav-link" href="four.html"><strong>THE FOR REST HOMEMADE CAFE</strong></a></li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"><strong>MEMBER</strong></a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="manao.html">670710747 ณัฏฐ์ชญา บัวขจร</a></li>
+                        <li><a class="dropdown-item" href="maphang.html">670710737 วิศรุตา พันศิริพัฒน์</a></li>
+                        <li><a class="dropdown-item" href="peachy.html">670710327 พิชญา ภักดิ์เจริญ</a></li>
+                        <li><a class="dropdown-item" href="pleum.html">670710745 ชัยภัทร รัตนพร</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- เอารูปมาใส่ได้เลยนะคั๊บ-->
+    <div class="store-container">
+        <div class="row justify-content-center g-3">
+          <div class="col-12 col-md-6">
+            <div class="card custom-card text-white">
+              <img src="img/venice.jpg" class="card-img img-hover" alt="Image 1">
+              <div class="card-img-overlay d-flex align-items-end">
+                <h5 class="card-title caption">VENICE STEAK & RESTAURANT</h5>
+              </div>
+              <a href="one.html" class="stretched-link"></a>
+            </div>
+          </div>
+          <div class="col-12 col-md-6">
+            <div class="card custom-card text-white">
+              <img src="img/vanilla0.jpg" class="card-img img-hover" alt="Vanilla PIC">
+              <div class="card-img-overlay d-flex align-items-end">
+                <h5 class="card-title caption">VANILLA SKY CAFE</h5>
+              </div>
+              <a href="two.html" class="stretched-link"></a>
+            </div>
+          </div>
+          <div class="col-12 col-md-6">
+            <div class="card custom-card text-white">
+              <img src="img/staywtree.jpg" class="card-img img-hover" alt="Image 3">
+              <div class="card-img-overlay d-flex align-items-end">
+                <h5 class="card-title caption">STAY WITH TREE CAFE</h5>
+              </div>
+              <a href="three.html" class="stretched-link"></a>
+            </div>
+          </div>
+          <div class="col-12 col-md-6">
+            <div class="card custom-card text-white">
+              <img src="img/theforrest.jpg" class="card-img img-hover" alt="The For Rest">
+              <div class="card-img-overlay d-flex align-items-end">
+                <h5 class="card-title caption">THE FOR REST HOMEMADE CAFE</h5>
+              </div>
+              <a href="four.html" class="stretched-link"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+
+<footer class="custom-footer">
+    <p class="footer-title"><strong>- WAIRUNPUATLANG -</strong></p>
+    <div class="footer-icons">
+        <a href="https://github.com/cafe319" target="_blank" class="icon-link">
+            <i class="bi bi-github"></i>
+        </a>
+        <a href="mailto:webtech.cafe67@gmail.com" class="icon-link">
+            <i class="bi bi-envelope"></i>
+        </a>
+        <br>
+    </div>
+</footer>
+</body>
+</html>

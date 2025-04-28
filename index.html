@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="th">
 <head>
     <title>Wairunpuatlang</title>
     <meta charset="utf-8">
@@ -30,9 +30,13 @@
       object-fit: cover;
       transition: transform 0.3s ease-in-out;
     }
+    
+    .card:hover .card-img {
+      transform: scale(1.1);
+    }
   
     .img-hover:hover {
-      transform: scale(1.5);
+      transform: scale(1.1);
     }
   
     .card-img-overlay {
@@ -50,8 +54,9 @@
 <header>
   <img src="img/banner.jpg" class="img-fluid w-100" style="max-height: 150px; object-fit: cover;" alt="Banner Image">
 </header>
+
 <nav class="navbar navbar-expand-lg custom-navbar">
-    <div class="container">
+  <div class="container">
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
             <span class="navbar-toggler-icon"></span>
         </button>
